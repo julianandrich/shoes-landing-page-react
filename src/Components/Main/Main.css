@@ -1,0 +1,29 @@
+.main_section {
+  padding: 0 3rem;
+  margin-top: 15vh;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_section_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
+  padding: 10px;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.main_content {
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+.main_img {
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+.section_precio {
+  grid-area: 3 / 1 / span 1 / span 1 ;
+}
+.stock {
+  grid-area: 3 / 2 / span 1 / span 1;
+}

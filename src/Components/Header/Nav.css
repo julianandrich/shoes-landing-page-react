@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: var(--white);
+}
+
+.navbar a:hover {
+	color: var(--pink);
+  transition: .2s;
+}

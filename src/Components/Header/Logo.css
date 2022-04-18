@@ -1,0 +1,8 @@
+.header_container_logo {
+  width: 50%;
+}
+
+.header_container_logo a img {
+  margin-left: 8rem;
+  width: 15%;
+}

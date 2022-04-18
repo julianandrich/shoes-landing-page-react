@@ -1,0 +1,17 @@
+/* Precio ------------------------------------- */
+
+.section_precio {
+  align-items: center;
+  justify-content: center;
+}
+
+.precio {
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.estilo_shoe {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
